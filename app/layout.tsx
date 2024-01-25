@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   authors: [
     {
-      name: 'Heet Patel',
+      name: 'Enchanted Realms Staff',
       url: siteConfig.links.author
     }
   ],
