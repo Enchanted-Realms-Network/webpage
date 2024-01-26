@@ -13,7 +13,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
-  metadataBase: new URL(siteConfig.url),
   authors: [
     {
       name: 'Enchanted Realms Staff',
