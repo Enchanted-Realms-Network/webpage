@@ -31,7 +31,7 @@ export function NavTab () {
                 <Link href={siteConfig.links.discord}>
                     <Image src={DiscordLogo} width={24} height={24} alt="Discord Logo" />
                 </Link>
-                <Link href={'/'}>
+                <Link href={siteConfig.links.shop}>
                     <Image src={ShoppingTrolley} width={24} height={24} alt="Discord Logo" />
                 </Link>
             </div>
