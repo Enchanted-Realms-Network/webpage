@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.url,
     locale: 'en_US',
-    siteName: siteConfig.name,
     images: [
       {
         url: siteConfig.ogImage,
