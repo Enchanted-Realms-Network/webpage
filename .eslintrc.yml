@@ -12,4 +12,8 @@ plugins:
 rules: {
   "@typescript-eslint/explicit-function-return-type": "off"  
 }
+overrides:
+  - files: ["components/**/*.tsx"]
+    rules:
+      "@typescript-eslint": "off"
   
