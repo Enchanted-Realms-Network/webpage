@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   authors: [
     {
       name: 'Enchanted Realms Staff',
-      url: siteConfig.links.author
+      url: siteConfig.links.github
     }
   ],
-  creator: 'Heet Patel',
+  creator: siteConfig.author,
   icons: [
     {
       url: '/images/serverlogo.ico',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: '/serverlogo.jpg',
+        url: siteConfig.ogImage,
         alt: siteConfig.name
       }
     ]

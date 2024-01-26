@@ -4,7 +4,9 @@ export const siteConfig = {
   description: 'A minecraft server network with a focus on community and exploration.',
   links: {
     discord: 'https://discord.gg/JDGssnHBwX',
-    author: 'https://patelheet30.uk'
+    author: 'https://patelheet30.uk',
+    shop: 'https://elementalmc-shop.tebex.io/',
+    github: 'https://github.com/Enchanted-Realms-Network'
   },
   author: 'Heet Patel',
   ogImage: '/serverlogo.jpg'

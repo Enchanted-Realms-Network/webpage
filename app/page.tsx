@@ -3,6 +3,8 @@
 import * as React from 'react'
 import { Button } from '@/components/ui/button'
 import { toast } from 'sonner'
+import Link from 'next/link'
+import { siteConfig } from '@/config/site'
 
 export default function Home () {
   return (
@@ -12,7 +14,7 @@ export default function Home () {
           <h1>Enchanted Realms</h1>
         </div>
         <div className="grid grid-cols-3 gap-4 max-w-xs">
-          <Button variant={'outline'}>Discord</Button>
+          <Link href={siteConfig.links.discord}><Button variant={'outline'}>Discord</Button></Link>
           <Button
             variant={'outline'}
             onClick={() => {
@@ -22,7 +24,7 @@ export default function Home () {
           >
             Server IP
           </Button>
-          <Button variant={'outline'}>Shop</Button>
+          <Link href={siteConfig.links.shop}></Link><Button variant={'outline'}>Shop</Button>
         </div>
       </div>
     </div>
