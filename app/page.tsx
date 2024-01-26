@@ -24,7 +24,7 @@ export default function Home () {
           >
             Server IP
           </Button>
-          <Link href={siteConfig.links.shop}></Link><Button variant={'outline'}>Shop</Button>
+          <Link href={siteConfig.links.shop}><Button variant={'outline'}>Shop</Button></Link>
         </div>
       </div>
     </div>
