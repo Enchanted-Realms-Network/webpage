@@ -26,19 +26,19 @@ export const metadata: Metadata = {
       href: '/images/serverlogo.ico'
     }
   ],
-  // openGraph: {
-  //   type: 'website',
-  //   title: siteConfig.name,
-  //   description: siteConfig.description,
-  //   url: siteConfig.url,
-  //   locale: 'en_US',
-  //   images: [
-  //     {
-  //       url: siteConfig.ogImage,
-  //       alt: siteConfig.name
-  //     }
-  //   ]
-  // }
+  openGraph: {
+    type: 'website',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    locale: 'en_US',
+    images: [
+      {
+        url: siteConfig.ogImage,
+        alt: siteConfig.name
+      }
+    ]
+  }
 }
 
 export default function RootLayout ({
