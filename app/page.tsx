@@ -19,7 +19,7 @@ export default function Home () {
             variant={'outline'}
             onClick={() => {
               toast.success('Copied to clipboard!')
-              navigator.clipboard.writeText('Coming soon...')
+              navigator.clipboard.writeText('play.enchantedrealms.org')
             }}
           >
             Server IP

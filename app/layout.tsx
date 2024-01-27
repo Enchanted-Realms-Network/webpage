@@ -26,19 +26,19 @@ export const metadata: Metadata = {
       href: '/images/serverlogo.ico'
     }
   ],
-  openGraph: {
-    type: 'website',
-    title: siteConfig.name,
-    description: siteConfig.description,
-    url: siteConfig.url,
-    locale: 'en_US',
-    images: [
-      {
-        url: siteConfig.ogImage,
-        alt: siteConfig.name
-      }
-    ]
-  }
+  // openGraph: {
+  //   type: 'website',
+  //   title: siteConfig.name,
+  //   description: siteConfig.description,
+  //   url: siteConfig.url,
+  //   locale: 'en_US',
+  //   images: [
+  //     {
+  //       url: siteConfig.ogImage,
+  //       alt: siteConfig.name
+  //     }
+  //   ]
+  // }
 }
 
 export default function RootLayout ({
@@ -49,7 +49,9 @@ export default function RootLayout ({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={cn('min-h-screen w-screen bg-background flex flex-col', inter.className)}>
-        <NavTab />
+        <div className='sticky top-0 z-50 bg-background/60 backdrop-blur'>
+          <NavTab />
+        </div>
         <div className='flex-1 relative'>
           {children}
         </div>
