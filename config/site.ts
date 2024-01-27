@@ -5,7 +5,7 @@ export const siteConfig = {
   links: {
     discord: 'https://discord.gg/JDGssnHBwX',
     author: 'https://patelheet30.uk',
-    shop: 'https://elementalmc-shop.tebex.io/',
+    shop: 'https://enchantedrealms.tebex.io/',
     github: 'https://github.com/Enchanted-Realms-Network'
   },
   author: 'Heet Patel',
