@@ -163,7 +163,8 @@ export default function Policy() {
             <p className="pl-8">By interacting with our Minecraft server, Discord server, or making a purchase on our Tebex shop, you agree to the terms outlined in this privacy policy.</p>
 
             <p className="text-3xl font-bold pt-8 mb-2">Thank you for being part of Enchanted Realms.</p>
-            <p className="text-2xl font-bold mb-8">Enchanted Realms Management Team</p>
+            <p className="text-2xl font-bold mb-4">Enchanted Realms Management Team</p>
+            <p className="text-sm font-bold mb-4">Enchanted Realms is not affiliated or endorsed by Mojang.</p>
         </div>
     );
 }
